@@ -1,0 +1,16 @@
+# macOS
+.DS_Store
+
+# Xcode — build output
+build/
+DerivedData/
+*.xcuserstate
+
+# Xcode — per-user state (should never be committed)
+xcuserdata/
+
+# Swift Package Manager
+.build/
+.swiftpm/
+
+# Compiled dismiss helper (built via scripts/build-install-dismiss.sh into ~/.local/bin)
